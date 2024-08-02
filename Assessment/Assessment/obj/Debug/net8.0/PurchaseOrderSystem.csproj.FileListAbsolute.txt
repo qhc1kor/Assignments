@@ -1,0 +1,14 @@
+C:\.Net_Training\Assesments\Assessment\Assessment\bin\Debug\net8.0\PurchaseOrderSystem.exe
+C:\.Net_Training\Assesments\Assessment\Assessment\bin\Debug\net8.0\PurchaseOrderSystem.deps.json
+C:\.Net_Training\Assesments\Assessment\Assessment\bin\Debug\net8.0\PurchaseOrderSystem.runtimeconfig.json
+C:\.Net_Training\Assesments\Assessment\Assessment\bin\Debug\net8.0\PurchaseOrderSystem.dll
+C:\.Net_Training\Assesments\Assessment\Assessment\bin\Debug\net8.0\PurchaseOrderSystem.pdb
+C:\.Net_Training\Assesments\Assessment\Assessment\obj\Debug\net8.0\PurchaseOrderSystem.GeneratedMSBuildEditorConfig.editorconfig
+C:\.Net_Training\Assesments\Assessment\Assessment\obj\Debug\net8.0\PurchaseOrderSystem.AssemblyInfoInputs.cache
+C:\.Net_Training\Assesments\Assessment\Assessment\obj\Debug\net8.0\PurchaseOrderSystem.AssemblyInfo.cs
+C:\.Net_Training\Assesments\Assessment\Assessment\obj\Debug\net8.0\PurchaseOrderSystem.csproj.CoreCompileInputs.cache
+C:\.Net_Training\Assesments\Assessment\Assessment\obj\Debug\net8.0\PurchaseOrderSystem.dll
+C:\.Net_Training\Assesments\Assessment\Assessment\obj\Debug\net8.0\refint\PurchaseOrderSystem.dll
+C:\.Net_Training\Assesments\Assessment\Assessment\obj\Debug\net8.0\PurchaseOrderSystem.pdb
+C:\.Net_Training\Assesments\Assessment\Assessment\obj\Debug\net8.0\PurchaseOrderSystem.genruntimeconfig.cache
+C:\.Net_Training\Assesments\Assessment\Assessment\obj\Debug\net8.0\ref\PurchaseOrderSystem.dll

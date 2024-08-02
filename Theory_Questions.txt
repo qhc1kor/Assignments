@@ -1,0 +1,139 @@
+                                                                              Assessment Theory
+
+upcasting & downcasting:
+upcasting & downcasting
+ Upcasting is the process of converting a derived class reference or object to a base class reference
+ 
+ Downcasting is the process of converting a base class reference back to a derived class reference.
+b/w abstract class and interface
+Feature                                                       Abstract Class	                                         Interface
+Instantiation
+	                                         Cannot be instantiated	                                  Cannot be instantiated
+Members	                                   Fields, properties, methods, events, constructors	          Methods, properties, events, indexers (implicitly public and abstract)
+Access Modifiers	                             Can have access modifiers	                                         Members are implicitly public
+Inheritance	                                                  Single inheritance	                                    Multiple inheritance
+Implementation	                                 Can have both abstract and concrete methods          	No implementation (except default interface methods in C# 8.0+)
+Constructors	                                Can have constructors	                                           Cannot have constructors
+Use Case	                     When sharing code or state is needed, and you want to provide             When defining a contract for multiple classes without sharing code or state	
+                                                      some base functionality
+													  
+
+4.list of definations of Icollection,IList,IEnumerable,IEnumerator.
+    Icollection:
+  The ICollection<T> interface represents a generic collection of objects.
+  It is defined in the System.Collections.Generic namespace and extends the IEnumerable<T> interface.
+  IList:
+  The IList<T> interface represents a collection of objects that can be individually accessed by index. 
+  It is defined in the System.Collections.Generic namespace and extends the ICollection<T> interface.
+  IEnumerable:
+  The IEnumerable<T> interface is the base interface for all generic collections that can be enumerated.
+  It is defined in the System.Collections.Generic namespace.
+  IEnumerator:
+  The IEnumerator<T> interface supports simple iteration over a generic collection.
+  It is defined in the System.Collections.Generic namespace.
+  
+
+ 6.find the usage of different methods from file class
+     System.IO namespace, provides a wide range of static methods for working with files. 
+	  These methods enable you to perform various file operations like creating, copying, deleting, moving, and opening files, as well as reading from and writing to files.
+     1. Creating and Deleting Files:
+	    Create: Creates or overwrites a file in the specified path.
+		Delete: Deletes the specified file.
+
+     2. Copying and Moving Files:
+	   Copy: Copies an existing file to a new file.
+       Move: Moves a specified file to a new location.
+     3. Checking File Existence
+        Exists: Determines whether the specified file exists.
+     4. Reading from and Writing to Files
+         ReadAllText: Reads all text from a file.
+         WriteAllText: Creates a new file, writes the specified string to the file, and then closes the file.
+         ReadAllLines: Reads all lines of a file into a string array.
+         WriteAllLines: Creates a new file, writes a collection of strings to the file, and then closes the file.
+         ReadAllBytes: Reads all bytes from a file.
+         WriteAllBytes: Creates a new file, writes the specified byte array to the file, and then closes the file.	
+     5. Appending to Files:
+         AppendAllText: Opens a file, appends the specified string to the file, and then closes the file.
+         AppendAllLines: Opens a file, appends the specified lines to the file, and then closes the file.
+     6.File Attributes and Properties
+	 7. Opening Files
+        	 
+
+
+
+write the same join query using lamda expression and extension methods
+Waht is use of Mutex,Semaphore when to use which one 
+A Mutex is a lock that allows only one thread to access a shared resource at a time. It's like a door lock: only one person can enter the room while the lock is engaged.
+
+Use cases for Mutex:
+
+Exclusive access: When a thread needs exclusive access to a shared resource, like a file or a data structure.
+Critical sections: To protect critical sections of code that modify shared variables.
+
+when do i use lock and monitor
+A Lock is a synchronization primitive that allows only one thread to access a shared resource at a time. It's like a door lock: only one person can enter the room while the lock is engaged.
+
+Use cases for Lock:
+
+Exclusive access: When a thread needs exclusive access to a shared resource, like a file or a data structure.
+Critical sections: To protect critical sections of code that modify shared variables.
+
+find out how do we integrate razorpay payment gateway in ASP.NET MVC application
+onclickevent of processed to check on button it redirect to razorpay UPI after payment thank you page
+Why should we use repository pattern write is it generic
+Expain each methods of common repository class  
+Pagination/Fix the layout
+
+Why do we need Cors?
+    CORS (Cross-Origin Resource Sharing) is a security feature implemented by web browsers 
+	to control how resources on a web server can be requested from another domain outside the domain from which the resource originated
+	
+list types of constraints which you can apply while formatting Http attributes?
+aplha,int,length,...Etc
+
+ Data Type Constraints
+String: Restrict the attribute to be a string.
+Integer: Ensure the attribute is an integer.
+Float/Double: Ensure the attribute is a floating-point number.
+Boolean: Ensure the attribute is a boolean value (true/false).
+Date/Time: Ensure the attribute is a valid date or time format.
+2. Value Constraints
+Range: Specify a minimum and/or maximum value (e.g., min=1, max=100).
+Length: Define minimum and maximum length for string attributes (e.g., minLength=3, maxLength=255).
+Pattern: Use regular expressions to enforce a specific format (e.g., email, phone number).
+3. Presence Constraints
+Required: Indicate that the attribute is mandatory.
+Optional: Specify that the attribute is not mandatory.
+4. Uniqueness Constraints
+Unique: Ensure that the attribute value is unique across a dataset (e.g., unique username or email).
+5. Referential Constraints
+Foreign Key: Ensure the attribute references a valid entry in another dataset (e.g., foreign key in relational databases).
+6. Format Constraints
+Email: Ensure the attribute is a valid email address.
+URL: Ensure the attribute is a valid URL.
+UUID: Ensure the attribute is a valid UUID.
+7. Security Constraints
+Sanitization: Ensure the attribute does not contain harmful data (e.g., XSS attacks).
+Encoding: Ensure the attribute is properly encoded to prevent injection attacks (e.g., SQL injection).
+8. Conditional Constraints
+Dependent: Ensure the attribute is present or has a specific value based on another attribute (e.g., state must be provided if country is USA).
+9. Collection Constraints
+Array/Collection: Ensure the attribute is an array or collection of values.
+Item Type: Specify the type of items within a collection (e.g., array of integers).
+Size: Specify minimum and maximum number of items in a collection.
+10. Custom Constraints
+Custom Logic: Apply custom validation logic using functions or expressions (e.g., a custom validation rule for a password strength).
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
